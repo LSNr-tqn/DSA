@@ -86,6 +86,6 @@ int main () {
     printf("Nhap so k: ");
     scanf("%d", &k);
     if (findFirst(&l, k)) {
-        printf("Tim thay %d dau tien ow vi tri %d", k, findFirst(&l, k));
+        printf("Tim thay %d dau tien o vi tri %d", k, findFirst(&l, k));
     } else printf("Khong tim thay %d trong List", k);
 }
